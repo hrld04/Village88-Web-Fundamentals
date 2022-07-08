@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizza Order Form</title>
+    </head>
+    <body>
+        <h1>Pizza Order Form</h1>
+        <form>
+            <label for="fname">Firstname: </label>
+            <input type="text" id="fname" name="fname"/><br>
+    
+            <label for="lname">Lastname: </label>
+            <input type="text" id="lname" name="lname"/><br>
+    
+            <label for="emailadd">Email Address:</label>
+            <input type="text" id="emailadd" name="emailadd"/><br>
+    
+            <label for="number">Contact Number:</label>
+            <input type="text" id="number" name="number"/><br>
+    
+            <label for="ddate">Delivery Date:</label>
+            <input type="text" id="ddate" name="ddate" placeholder="mm/dd/yyyy"/><br>
+    
+            <p>Size:</p>
+            <label for="small">Small</label>
+            <input type="radio" id="small" name="small" value="small" />
+    
+            <label for="medium">Medium</label>
+            <input type="radio" id="medium" name="medium" value="medium" />
+            
+            <label for="large">Large</label>
+            <input type="radio" id="large" name="large" value="large" /><br>
+    
+            <p>Flavor:</p>
+            <input type="checkbox" id="Haw" name="hawaian" value="hawaian" />
+            <label for="Haw">Hawaian (Php. 150.00)</label>
+            <select name="flavor">
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+            </select><br>
+    
+            <input type="checkbox" id="Pep" name="pepperoni" value="pepperoni" />
+            <label for="Pep">Pepperoni (Php. 140.00)</label>
+            <select name="flavor">
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+            </select><br>
+    
+            <input type="checkbox" id="Veg" name="vegetable" value="vegetable" />
+            <label for="Veg">Vegetable (Php. 130.00)</label>
+            <select name="flavor">
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+            </select><br><br>
+    
+            <label for="card">Credit Card Number: </label>
+            <input type="text" id="card" name="card"/><br>
+    
+            <label for="pin">Pin: </label>
+            <input type="text" id="pin" name="pin"/><br>
+    
+            <p>Addtional Note:</p>
+            <textarea name="notes"></textarea><br><br>
+    
+            <input type="submit" value="Submit Order" name="'Submit Order"/>
+        </form>
+    </body>
+</html>
